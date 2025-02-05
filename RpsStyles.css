@@ -1,0 +1,27 @@
+.gameControls {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.scores {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.scores p {
+   margin: 0px;
+   padding: 0px;
+   margin-right: 10px;
+}
+
+h1 {
+   text-align: center;
+}
+
+#results {
+   text-align: center;
+}
+
+//*{border:solid 2px blue;}

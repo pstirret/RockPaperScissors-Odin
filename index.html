@@ -3,10 +3,24 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script type="text/javascript" src="./rpc.js"></script>
+   <script type="text/javascript" src="./rps.js" defer></script>
+   <link rel="stylesheet" href="RpsStyles.css">
    <title>Document</title>
 </head>
 <body>
    <h1>Rock, Paper, Scissors...</h1>
+   <div class="gameControls">
+      <div class="buttons">
+         <button class="btnRock">Rock</button>
+         <button class="btnPaper">Paper</button>
+         <button class="btnScissors">Scissors</button>
+      </div>
+      <div class="scores">
+         <p class="humanScore">Your Score:</p><p class="hScoreValue">0</p>
+         <p class="computerScore">Computer Score:</p><p class="cScoreValue">0</p>
+      </div>
+   </div>
+
+   <div id="results"></div>
 </body>
 </html>
